@@ -27,8 +27,11 @@
         <div class="categories">
             <label for="category">Choose a Category:</label>
             <select name="" id="category">
-                <option value="">Shoes</option>
-                <option value="">Household Products</option>
+                <option value="">--Categories--</option>
+                <option value="0">Shoes</option>
+                <option value="1">Toothpaste</option>
+                <option value="2">Smartphones</option>
+                <option value="3">Watches</option>
             </select>
         </div>
 
@@ -42,32 +45,9 @@
     </div>
 
     <script src="app.js"></script>
-    <script>
-        const ctx = document.getElementById('myChart');
-
-        new Chart(ctx, {
-            type: 'bar',
-            data: {
-                labels: ['Puma', 'Campus', 'SparX', 'Bata', 'Reebok', 'Nike'],
-                datasets: [{
-                    label: '% of Reviews',
-                    data: [65, 72, 91, 54, 44, 31],
-                    borderWidth: 1,
-                    hoverBorderColor: '#000',
-                    backgroundColor: [
-                        '#FF5733', '#48A36D', '#674EA7', '#F2B134', '#2E8BC0', '#D32F2F'
-                    ]
-                }]
-            },
-            options: {
-                scales: {
-                    y: {
-                        beginAtZero: true
-                    }
-                }
-            }
-        });
-    </script>
+    <!-- <script>
+        
+    </script> -->
 </body>
 
 </html>

@@ -1,29 +1,116 @@
 {
-      "shoes":
-      [
+  "maindata": [
+    {
+      "category": "shoes",
+      "categorydata": [
         {
-        "brand": "Puma",
-        "review": 65
-       },
-       {
-        "date": "Campus",
-        "review": 72
-       },
-       {
-        "date": "SparX",
-        "review": 91
-       },
-       {
-        "date": "Bata",
-        "review": 54
-       },
-       {
-        "date": "Reebok",
-        "review": 44
-       },
-       {
-        "date": "Nike",
-        "review": 31
-       }
+          "brand": "Puma",
+          "review": 60
+        },
+        {
+          "brand": "Campus",
+          "review": 72
+        },
+        {
+          "brand": "SparX",
+          "review": 91
+        },
+        {
+          "brand": "Bata",
+          "review": 54
+        },
+        {
+          "brand": "Reebok",
+          "review": 44
+        },
+        {
+          "brand": "Nike",
+          "review": 31
+        }
       ]
+    },
+    {
+      "category": "toothpaste",
+      "categorydata": [
+        {
+          "brand": "Colgate",
+          "review": 92
+        },
+        {
+          "brand": "Dabur",
+          "review": 69
+        },
+        {
+          "brand": "CloseUp",
+          "review": 55
+        },
+        {
+          "brand": "Babool",
+          "review": 22
+        },
+        {
+          "brand": "Himalaya",
+          "review": 45
+        }
+      ]
+    },
+    {
+      "category": "smartphones",
+      "categorydata": [
+        {
+          "brand": "Samsung",
+          "review": 78
+        },
+        {
+          "brand": "Redmi",
+          "review": 67
+        },
+        {
+          "brand": "Realme",
+          "review": 24
+        },
+        {
+          "brand": "Apple",
+          "review": 55
+        },
+        {
+          "brand": "OnePlus",
+          "review": 90
+        },
+        {
+          "brand": "Vivo",
+          "review": 48
+        },
+        {
+          "brand": "Oppo",
+          "review": 82
+        }
+      ]
+    },
+    {
+      "category": "watches",
+      "categorydata": [
+        {
+          "brand": "Casio",
+          "review": 77
+        },
+        {
+          "brand": "Fire-Boltt",
+          "review": 91
+        },
+        {
+          "brand": "Fastrack",
+          "review": 64
+        },
+        {
+          "brand": "LOUIS DEVIN",
+          "review": 34
+        },
+        {
+          "brand": "Titan",
+          "review": 66
+        }
+      ]
+    }
+  ]
 }
