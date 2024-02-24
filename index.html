@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Analysis</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Cust SRM</h1>
+        <!-- <p>Welcome to</p> -->
+        <h2>Global Sentiment Response App</h2>
+    </header>
+
+    <hr>
+
+    <main>
+        <div class="product_search">
+            <label for="prod">Product Name:</label>
+            <input id="prod" type="text" placeholder="Enter Product Name">
+        </div>
+
+        <div class="categories">
+            <label for="category">Choose a Category:</label>
+            <select name="" id="category">
+                <option value="">Shoes</option>
+                <option value="">Household Products</option>
+            </select>
+        </div>
+
+        <input type="submit" value="Search" class="submit_btn">
+    </main>
+
+    <hr>
+
+    <div class="chart_container">
+        <canvas id="myChart"></canvas>
+    </div>
+
+    <script src="app.js"></script>
+    <script>
+        const ctx = document.getElementById('myChart');
+
+        new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Puma', 'Campus', 'SparX', 'Bata', 'Reebok', 'Nike'],
+                datasets: [{
+                    label: '% of Reviews',
+                    data: [65, 72, 91, 54, 44, 31],
+                    borderWidth: 1,
+                    hoverBorderColor: '#000',
+                    backgroundColor: [
+                        '#FF5733', '#48A36D', '#674EA7', '#F2B134', '#2E8BC0', '#D32F2F'
+                    ]
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>

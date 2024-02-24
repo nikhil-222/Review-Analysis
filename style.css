@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    width: 100%;
+    background-color: #F5E8DD;
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    margin: 2rem 0;
+    background-image: url('header_img.png');
+    background-size: 100% 100%;
+    color: #fb9a7a;
+}
+
+header h1 {
+    margin-bottom: 1rem;
+    letter-spacing: 5px;
+}
+
+.product_search {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+#prod,
+#category {
+    font-size: 1rem;
+    padding: 0.6rem 0.2rem;
+    width: 30%;
+    border-radius: 4px;
+    margin-left: 2rem;
+}
+
+#category {
+    cursor: pointer;
+}
+
+main label {
+    font-size: 1.2rem;
+}
+
+.product_search label {
+    margin-right: 2.35rem;
+}
+
+.submit_btn {
+    margin: 4rem 0;
+    font-size: 0.9rem;
+    padding: 0.2rem 1rem;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.chart_container {
+    width: 80%;
+    margin: 6rem auto 2rem;
+    background-color: #fff;
+    padding: 1rem;
+    display: none;
+}
